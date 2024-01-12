@@ -1,0 +1,108 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://gifdb.com/images/high/pixelated-star-background-e09dbw6zvuyp420b.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-y: scroll; 
+}
+
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.overlay h1 {
+  font-size: 2em;
+}
+
+.overlay p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav {
+  background-color: #444;
+  padding: 10px 0;
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.navigation li a:hover {
+  color: #ffd700;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.content p {
+  line-height: 1.6;
+  color: #666;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
